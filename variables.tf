@@ -1,13 +1,13 @@
 variable "project_id" {
   type           = string
   description  = "My project"
-  default        = "lab-ssm-netsec-team"
+  default        = "project"
 }
 
 variable "region" {
   type           = string
   description  = "Region for this infrastructure"
-  default        = "europe-west8"
+  default        = "region"
 }
 
 variable "name" {
