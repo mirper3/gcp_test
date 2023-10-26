@@ -14,6 +14,7 @@ Follow these steps to set up and use the Terraform scripts:
 Clone the Repository:
 
 git clone https://github.com/mirper3/gcp_test
+
 cd gcp_test
 
 Initialize Terraform:
