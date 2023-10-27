@@ -50,8 +50,11 @@ Destroy (Optional):
 terraform destroy
 
 Prerequsites Code-as-a-Diagram:
+
   Have python3 installed in your local machine.
+  
   You have runned terraform apply and terraform output -json > terraform_outputs.json.
+  
   Install libarys:
     pip install diagrams
   Run diagrams.py:
