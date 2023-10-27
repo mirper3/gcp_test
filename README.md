@@ -1,4 +1,7 @@
 # gcp_test
+
+This repository deploys 1 VPC, 1 subnet, 2 Debian VMs with ngixdemo docker, SSH keys, external HTTP load balancer.
+
 Prerequisites
 Before you begin, ensure you have the following prerequisites installed on your local machine:
 
@@ -9,7 +12,7 @@ Cloud Provider Account: You'll need an account with the GCP project you intend t
 Git: You should have Git installed on your local machine to clone the repository. You can download it here.
 
 Getting Started
-Follow these steps to set up and use the Terraform scripts:
+Follow these steps to set up and use the Terraform script:
 
 Clone the Repository:
 
@@ -19,13 +22,13 @@ cd gcp_test
 
 Initialize Terraform:
 
-Run the following command to initialize Terraform with the required providers:
+Run the following command to initialize Terraform:
 
 terraform init
 
 Set Variables:
 
-Customize the Terraform variables to match your infrastructure requirements. You can do this by editing the variables.tf file.
+Customize the Terraform variables to match your infrastructure. You can do this by editing the variables.tf file.
 
 Plan:
 
