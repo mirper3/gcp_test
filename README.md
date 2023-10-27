@@ -55,7 +55,10 @@ Prerequsites Code-as-a-Diagram:
   
   You have runned terraform apply and terraform output -json > terraform_outputs.json.
   
-  Install libarys:
-    pip install diagrams
+  Install libraries:
+  
+  pip install diagrams
+  
   Run diagrams.py:
-    python3 diagrams.py
+  
+  python3 diagrams.py
